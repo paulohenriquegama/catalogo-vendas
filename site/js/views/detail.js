@@ -4,6 +4,7 @@ import { esc, priceHTML, estadoLabel, WA_ICON } from '../util.js';
 import { buildWhatsAppOrderUrl } from '../whatsapp.js';
 import { cardHTML, attachCoverFallback } from './list.js';
 import { isSeller } from '../seller.js';
+import { attachZoom } from '../zoom.js';
 import { shareItem, shareReferral } from '../share/share.js';
 import { ART_ICON, SHARE_ICON } from '../util.js';
 
@@ -53,6 +54,7 @@ export function renderDetail(root, { area, id, catalog }) {
         <p><a class="btn btn-secondary" href="#/${area}">Ver o catálogo inteiro</a></p></section>` : `<p><a class="btn btn-secondary" href="#/${area}">Ver o catálogo inteiro</a></p>`}
     </div>`;
   attachCoverFallback(root, area);
+  attachZoom(root.querySelector('.detail-cover'));
   root.querySelector('#seller-actions').addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
     if (b.dataset.art) shareItem(item, area, b.dataset.art, cfg);

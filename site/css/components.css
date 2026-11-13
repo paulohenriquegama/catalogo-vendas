@@ -117,3 +117,10 @@
 .share-caption textarea { width: 100%; padding: .6rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); color: var(--text); font: .9rem/1.4 var(--font-body); resize: vertical; }
 .toast { position: fixed; left: 50%; bottom: 1.25rem; transform: translate(-50%, 150%); z-index: 1000; max-width: calc(100% - 2rem); padding: .7rem 1.1rem; border-radius: var(--radius); background: var(--text); color: var(--bg); font-weight: 600; box-shadow: 0 4px 16px var(--shadow); transition: transform .25s ease; pointer-events: none; }
 .toast.show { transform: translate(-50%, 0); }
+
+/* Foto ampliada (lightbox) */
+.detail-cover.zoomable { cursor: zoom-in; }
+.lightbox { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 1rem; background: var(--hero-bg); cursor: zoom-out; }
+.lightbox img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; border-radius: var(--radius); background: var(--surface); }
+.lightbox-close { position: absolute; top: .75rem; right: .75rem; min-width: 44px; min-height: 44px; border: 0; border-radius: 999px; background: var(--surface); color: var(--text); font-size: 1.2rem; cursor: pointer; }
+body.lightbox-open { overflow: hidden; }
