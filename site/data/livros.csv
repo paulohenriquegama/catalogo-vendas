@@ -1,6 +1,6 @@
 id,ativo,titulo,autor,editora,categoria,estado,preco,preco_promo,descricao,imagem,destaque,ordem
-L001,sim,O coração do vício: Uma Perspectiva Bíblica,Mark E. Shaw,,Aconselhamento,novo,"75,00",,,L001.jpg,sim,10
-L002,sim,Manual do Conselheiro Cristão,Jay E. Adams,,Aconselhamento,novo,"65,00",,,L002.jpg,,20
+L001,sim,O coração do vício: Uma Perspectiva Bíblica,Mark E. Shaw,,Aconselhamento,novo,"79,00",,,L001.jpg,sim,10
+L002,sim,Manual do Conselheiro Cristão,Jay E. Adams,,Aconselhamento,novo,"85,00",,,L002.jpg,,20
 L003,sim,O Marido Exemplar: Uma Perspectiva Bíblica,Stuart Scott,,Aconselhamento,novo,"55,00",,,L003.jpg,,30
 L004,sim,O Evangelho e as Doenças da Mente,Heath Lambert,,Aconselhamento,novo,"15,00",,,L004.jpg,,40
 L005,sim,Intervenção Divina: Esperança e Socorro para famílias de dependentes químicos,Mark E. Shaw,,Aconselhamento,novo,"45,00",,,L005.jpg,,50
