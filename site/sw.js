@@ -1,7 +1,7 @@
 // Service worker do Catálogo Pr. Paulo.
 // Guarda o site (HTML, CSS, JS, fontes, imagens) para abrir rápido.
 // Os CSVs da planilha não passam pelo cache: sempre vão à rede.
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE_NAME = `catalogo-${CACHE_VERSION}`;
 const SHELL = [
   './',

@@ -104,10 +104,17 @@ export function shareItem(item, area, format = 'status', config = {}) {
     dlg.remove();
   }
 
-  function fallback(desktop) {
-    download(state.url, state.file.name);
-    if (desktop) window.open(`https://wa.me/?text=${encodeURIComponent(caption)}`, '_blank', 'noopener');
-    else { toast('Imagem baixada. Copie a legenda abaixo.'); field.focus(); }
+  // Sem folha de compartilhamento com arquivo (computador): copia a imagem para colar no WhatsApp.
+  // Se o navegador não permitir copiar imagem, baixa o PNG.
+  function copyImageFallback(file) {
+    if (window.ClipboardItem && navigator.clipboard?.write) {
+      navigator.clipboard.write([new ClipboardItem({ 'image/png': file })])
+        .then(() => toast('Imagem copiada. Cole no WhatsApp (Ctrl/Cmd+V) e depois use "Copiar legenda".'))
+        .catch(() => { download(state.url, file.name); toast('Imagem baixada. Envie pelo WhatsApp e cole a legenda.'); });
+    } else {
+      download(state.url, file.name);
+      toast('Imagem baixada. Envie pelo WhatsApp e cole a legenda.');
+    }
   }
 
   dlg.addEventListener('click', e => {
@@ -121,14 +128,16 @@ export function shareItem(item, area, format = 'status', config = {}) {
     } else if (b.hasAttribute('data-download') && state.file) {
       download(state.url, state.file.name);
     } else if (b.hasAttribute('data-share') && state.file) {
-      // 1) legenda para a área de transferência (alguns Androids ignoram o texto quando há arquivo)
-      copyText(caption, field).then(ok => ok && toast(COPIED));
-      // 2) share ainda dentro do gesto, com o arquivo já pronto
-      const data = { files: [state.file], text: caption };
-      if (!isDesktop() && navigator.canShare?.({ files: data.files })) {
-        navigator.share(data).catch(err => { if (!isAbort(err)) { console.warn('[compartilhar]', err); fallback(false); } });
+      const file = state.file;
+      const canFiles = !!navigator.canShare?.({ files: [file] });
+      if (canFiles) {
+        // Imagem e legenda juntas na folha de compartilhamento (dentro do gesto do clique).
+        copyText(caption, field).then(ok => ok && toast(COPIED));
+        navigator.share({ files: [file], text: caption }).catch(err => {
+          if (!isAbort(err)) { console.warn('[compartilhar]', err); copyImageFallback(file); }
+        });
       } else {
-        fallback(isDesktop() || !!navigator.share);
+        copyImageFallback(file);
       }
     }
   });
