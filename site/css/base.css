@@ -1,0 +1,14 @@
+@font-face { font-family: "Cormorant Garamond"; font-weight: 500 700; font-style: normal; font-display: swap; src: url("../fonts/CormorantGaramond.woff2") format("woff2"); }
+@font-face { font-family: "Source Sans 3"; font-weight: 400 700; font-style: normal; font-display: swap; src: url("../fonts/SourceSans3.woff2") format("woff2"); }
+@font-face { font-family: "Archivo"; font-weight: 500 900; font-style: normal; font-display: swap; src: url("../fonts/Archivo.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 400 700; font-style: normal; font-display: swap; src: url("../fonts/Inter.woff2") format("woff2"); }
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 1rem; line-height: 1.5; min-height: 100dvh; overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--font-head); font-weight: var(--head-weight); line-height: 1.15; margin: 0 0 .5em; }
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.container { width: min(100% - 2rem, 960px); margin-inline: auto; }

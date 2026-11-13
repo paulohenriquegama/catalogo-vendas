@@ -1,0 +1,28 @@
+/* Única fonte de cores e fontes. Valores em docs/IDENTIDADE.md.
+   Seletores sem "body" para que as metades da home herdem a marca. */
+[data-brand="ci"] {
+  --bg: #FBF8F1; --surface: #FFFFFF; --text: #1D2A26; --muted: #5B6B65;
+  --primary: #1A3C34; --on-primary: #F3F0E6; --accent: #8A6A2C; --on-accent: #FFFFFF;
+  --line: #E4DDCB; --shadow: rgba(26, 60, 52, .18);
+  --hero-bg: #1A3C34; --hero-text: #F3F0E6; --hero-muted: #C9D3CE; --hero-accent: #C99F5E;
+  --font-head: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Source Sans 3", system-ui, sans-serif;
+  --head-weight: 600; --radius: 6px;
+}
+[data-brand="techthe"] {
+  --bg: #FFF8F2; --surface: #FFFFFF; --text: #1C1410; --muted: #6B5A50;
+  --primary: #CC3608; --on-primary: #FFFFFF; --accent: #FFC72F; --on-accent: #1C1410;
+  --line: #F0DDD0; --shadow: rgba(28, 20, 16, .22);
+  --hero-bg: #1C1410; --hero-text: #FFF8F2; --hero-muted: #E6D5C8; --hero-accent: #FF8A4C;
+  --font-head: "Archivo", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --head-weight: 800; --radius: 14px;
+}
+[data-brand="home"] {
+  --bg: #F6F4F0; --surface: #FFFFFF; --text: #2A2623; --muted: #6A645E;
+  --primary: #2A2623; --on-primary: #FFFFFF; --accent: #2A2623; --on-accent: #FFFFFF;
+  --line: #E2DED8; --shadow: rgba(0, 0, 0, .2);
+  --font-head: "Archivo", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --head-weight: 700; --radius: 10px;
+}

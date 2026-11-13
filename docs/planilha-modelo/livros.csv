@@ -1,0 +1,14 @@
+id,ativo,titulo,autor,editora,categoria,estado,preco,preco_promo,descricao,imagem,destaque,ordem
+L001,sim,O coração do vício: Uma Perspectiva Bíblica,Mark E. Shaw,,Aconselhamento,novo,"75,00",,,L001.jpg,sim,10
+L002,sim,Manual do Conselheiro Cristão,Jay E. Adams,,Aconselhamento,novo,"65,00",,,L002.jpg,,20
+L003,sim,O Marido Exemplar: Uma Perspectiva Bíblica,Stuart Scott,,Aconselhamento,novo,"55,00",,,L003.jpg,,30
+L004,sim,O Evangelho e as Doenças da Mente,Heath Lambert,,Aconselhamento,novo,"15,00",,,L004.jpg,,40
+L005,sim,Intervenção Divina: Esperança e Socorro para famílias de dependentes químicos,Mark E. Shaw,,Aconselhamento,novo,"45,00",,,L005.jpg,,50
+L006,sim,De Perdoado a Perdoador: Aprendendo a perdoar uns aos outros da forma de Deus,Jay Adams,,Aconselhamento,novo,"65,00",,,L006.jpg,,60
+L007,sim,Coração e Sexualidade: Entendendo Deus a si mesmo e ao outro,Wadislau Martins Gomes,,Aconselhamento,novo,"45,00",,,L007.jpg,,70
+L008,sim,A Busca da Santidade,Jerry Bridges,,Vida Cristã,novo,"45,00",,,L008.jpg,,80
+L009,sim,Trilha: Depressão (Um guia para estudantes),John C. Kwasny,,Aconselhamento,novo,"35,00",,,L009.jpg,,90
+L010,sim,Identidade e Sexualidade: Reformando nossa visão de conceitos fundamentais,Pedro Dulci,,Aconselhamento,novo,"35,00",,,L010.jpg,,100
+L011,sim,Trilha: Ansiedade (Um guia para estudantes),Edward T. Welch,,Aconselhamento,novo,"35,00",,,L011.jpg,,110
+L012,nao,Livro Inativo (some do site),Autor Fictício,,Teologia,novo,"30,00",,,L012.jpg,,120
+L013,sim,Livro Sem Preço (descartado),Autor Fictício,,Teologia,novo,,,,L013.jpg,,130

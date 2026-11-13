@@ -1,0 +1,6 @@
+id,ativo,nome,marca_produto,categoria,estado,preco,preco_promo,descricao,variacoes,imagem,destaque,ordem
+P001,sim,Protetor Adaptador Contra Surtos Elétricos DPS 20A Bivolt,,Eletrônicos,novo,"40,00",,,,P001.jpg,sim,10
+P002,sim,Produto de Exemplo Dois,Marca Exemplo,Casa,seminovo,"45,00",,Descrição de exemplo.,,P002.jpg,,20
+P003,sim,Produto de Exemplo Três,,Acessórios,novo,"19,90",,,"P, M, G",P003.jpg,,30
+P004,nao,Produto Inativo (some do site),,Casa,novo,"10,00",,,,P004.jpg,,40
+P005,sim,Produto Sem Preço (descartado),,Casa,novo,,,,,P005.jpg,,50
