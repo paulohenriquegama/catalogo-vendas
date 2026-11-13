@@ -1,2 +1,3 @@
 id,ativo,nome,marca_produto,categoria,estado,preco,preco_promo,descricao,variacoes,imagem,destaque,ordem
 P001,sim,Protetor Adaptador Contra Surtos Elétricos DPS 20A Bivolt,,Eletrônicos,novo,"40,00",,,,P001.jpg,sim,10
+P002,sim,Fone Bluetooth Lenovo XT80 (thinkplus) True Wireless,Lenovo thinkplus,Eletrônicos,novo,"135,00","120,00","Fone true wireless com haste de apoio para a orelha, encaixe firme e seguro. Conexão Bluetooth. Estojo de carregamento com display digital que mostra a carga da bateria. Produto lacrado, na caixa original.",,P002.jpg,,20
