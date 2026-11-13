@@ -14,3 +14,5 @@ Cada etapa acrescenta no máximo 5 linhas ao terminar.
 - E4: artes aprovadas pelo Paulo em 2026-11-13. Continua pendente o teste real no Android e no iPhone.
 - 2026-11-13 · E5 (Haiku 5.5): publicado em https://paulohenriquegama.github.io/catalogo-vendas/ (repo público `catalogo-vendas`, deploy via Actions só de `site/`). Pronto: manifest + sw.js (CSVs fora do cache), meta Open Graph com `img/og.jpg` 1200×630, `url_site` atualizado nas duas planilhas, `docs/COMO-USAR.md`, `site/dev/` fora do git e do deploy (.gitignore).
 - E5 pendente: conferir prévia no WhatsApp, instalação na tela inicial (Android e iPhone) e teste real de compartilhamento nos dois celulares (E4). Colar `url_site` na aba config da planilha do Google.
+- 2026-11-13 · E6 (Haiku 5.5): cadastrados L014 (20 Verdades, R$ 80,00 por R$ 65,00) e L015 (Cria em Mim um Coração Puro, R$ 55,00); fotos em site/img/items/L014.jpg e L015.jpg. Preços de L001 (R$ 79,00) e L002 (R$ 85,00) atualizados. Produtos: mantido só P001, demais removidos.
+E6 pendente: commit e push (aguardando aprovação do Paulo); faltam categorias, descrições e fotos de L001 a L013 conferidas pelo Paulo.
