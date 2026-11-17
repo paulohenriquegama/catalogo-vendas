@@ -17,3 +17,4 @@ Cada etapa acrescenta no máximo 5 linhas ao terminar.
 - 2026-11-13 · E6 (Haiku 5.5): cadastrados L014 (20 Verdades, R$ 80,00 por R$ 65,00) e L015 (Cria em Mim um Coração Puro, R$ 55,00); fotos em site/img/items/L014.jpg e L015.jpg. Preços de L001 (R$ 79,00) e L002 (R$ 85,00) atualizados. Produtos: mantido só P001, demais removidos.
 E6 pendente: commit e push (aguardando aprovação do Paulo); faltam categorias, descrições e fotos de L001 a L013 conferidas pelo Paulo.
 - 2026-11-13 · E6: cadastrado P002 (Fone Lenovo XT80 thinkplus, R$ 135,00 por R$ 120,00 no Pix), foto em site/img/items/P002.jpg.
+- 2026-11-17 · E6: cadastrado P003 (Filtro de Linha 4 Tomadas e 3 USB-A, R$ 40,00), foto em site/img/items/P003.jpg, com descrição de venda.
