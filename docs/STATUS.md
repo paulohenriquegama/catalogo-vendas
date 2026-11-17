@@ -18,3 +18,4 @@ Cada etapa acrescenta no máximo 5 linhas ao terminar.
 E6 pendente: commit e push (aguardando aprovação do Paulo); faltam categorias, descrições e fotos de L001 a L013 conferidas pelo Paulo.
 - 2026-11-13 · E6: cadastrado P002 (Fone Lenovo XT80 thinkplus, R$ 135,00 por R$ 120,00 no Pix), foto em site/img/items/P002.jpg.
 - 2026-11-17 · E6: cadastrado P003 (Filtro de Linha 4 Tomadas e 3 USB-A, R$ 40,00), foto em site/img/items/P003.jpg, com descrição de venda.
+- 2026-11-17 · E6: cadastrado P004 (Filtro de Linha 5 Tomadas com 4 USB-A e 1 USB-C, R$ 55,00, Pix R$ 50,00), foto em site/img/items/P004.jpg.
